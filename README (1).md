@@ -20,7 +20,11 @@ Linear Regression, Random Forest və XGBoost modelləri müqayisə edilib, ən y
 3. **EDA (Kəşfiyyat Analizi)** — boxplot, lineplot, heatmap, histplot
 4. **Sütunların silinməsi** — aşağıda izah edilib
 5. **Outlier handling** — IQR metodu ilə
-6. **Modeling** — Sklearn Pipeline ilə 3 model quruldu və müqayisə edildi
+6.  **Modeling** — Sklearn Pipeline ilə 3 model quruldu:
+   - Numeric features: `SimpleImputer (median)` → `StandardScaler`
+   - Categorical features: `SimpleImputer (most_frequent)` → `OneHotEncoder`
+   - `ColumnTransformer` ilə preprocessing birləşdirildi
+   - Hər model ayrıca Pipeline-a sarıldı
 
 ---
 
