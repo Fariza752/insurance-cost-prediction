@@ -101,4 +101,4 @@ Bu layihədən əsas dərs: **yaxşı data olmadan yaxşı model olmur.**
 
 ## 👤 Müəllif
 
-GitHub: [@sənin_adın](https://github.com/sənin_adın)
+GitHub: [@Fariza752](https://github.com/Fariza752)
